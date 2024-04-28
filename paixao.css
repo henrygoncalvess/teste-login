@@ -37,13 +37,12 @@ section{
 }
 h1{
     font: var(--amor);
-    margin: auto;
-    font-size: 1.4em;
+    font-size: 1.8em;
     text-align: center;
 }
 h2{
     font: var(--amor);
-    font-size: 1.1em;
+    font-size: 1.4em;
     text-align: center;
     padding: 10px 0px;
 }
