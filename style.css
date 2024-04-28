@@ -10,15 +10,16 @@
 }
 body{
     background: linear-gradient(240deg, rgb(31, 31, 245), rgb(235, 161, 24)) center center no-repeat fixed;
+
 }
 main{
-    margin: 100px 10px;
+    margin: 20px 10px;
 }
 section{
     margin: auto;
     background-color: rgb(215, 210, 248);
     max-width: 600px;
-    height: 600px;
+    height: auto;
     border-radius: 30px;
     border: 1px solid black;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.775);
@@ -31,10 +32,44 @@ h1{
 }
 p{
     font: var(--outros);
+    color: rgb(0, 0, 95);
     text-align: center;
+    padding: 15px 0px;
 }
-input{
+input.txt{
     height: 30px;
+    width: 220px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
     border-radius: 6px;
+}
+input#senha{
+    width: 200px;
+}
+input:focus{
+    background-color: rgb(248, 239, 197);
+}
+input{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.562);
+    border-radius: 6px;
+    font-size: 0.7em;
+}
+input.bola{
+    box-shadow: none;
+}
+input#dt{
+    width: 180px;
+    text-align: center;
+    font-size: 0.8em;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(235, 169, 48);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgb(146, 100, 0);
+    transition-duration: 300ms;
+}
+a:hover{
+    padding: 15px 25px;
 }
