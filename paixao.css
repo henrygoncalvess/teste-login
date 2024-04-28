@@ -3,7 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
 :root{
-    --amor: bold 2em 'Indie Flower', Arial, Helvetica, sans-serif;
+    --amor: bold 2.5em'Indie Flower', Arial, Helvetica, Verdana, sans-serif;
+    --normal: normal 1em Arial, Helvetica, Verdana, sans-serif;
 }
 *{
     margin: 0px;
@@ -14,19 +15,74 @@ body{
     background: rgb(252, 131, 131) url(https://static.vecteezy.com/system/resources/previews/016/408/163/non_2x/3d-red-heart-free-png.png) center center repeat fixed;
     background-size: cover;
     background-size: 200px;
-    text-shadow: 1px 1px 2px rgba(73, 1, 1, 0.5);
+    text-shadow: 1px 1px 1px rgba(54, 0, 0, 0.5);
     margin: 10px 10px;
+    
 }
 section{
-    max-width: 700px;
+    max-width: 650px;
     height: auto;
     background-color: white;
     margin: auto;
     text-align: center;
     border-radius: 30px;
     box-shadow: 2px 2px 5px rgba(102, 0, 0, 0.856);
-    background-color: rgb(247, 208, 247);
+    background-color: rgb(248, 217, 248);
+    padding: 20px;
 }
 h1{
     font: var(--amor);
+}
+h2{
+    font: var(--amor);
+    font-size: 1.9em;
+    text-align: center;
+    padding: 10px 0px;
+}
+img{
+    max-width: 400px;
+    border-radius: 40px;
+    padding: 10px 0px;
+}
+img.pq{
+    width: 160px;
+    border-radius: 0px;
+    display: inline-block;
+    padding: 0px;
+}
+p{
+    font: var(--normal);
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6em;
+}
+footer{
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px auto;
+    max-width: 670px;
+    border-radius: 20px;
+    text-align: center;
+    font: var(--amor);
+    font-size: 1.5em;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(26, 0, 31);
+    box-shadow: 2px 2px 5px rgba(102, 0, 0, 0.856);
+}
+div > aside{
+    display: none;
+}
+div:focus-within > aside{
+    display: block;
+}
+main > footer{
+    display: none;
+}
+main:focus-within > footer{
+    display: block;
+}
+a{
+    font-size: 5em;
+    text-decoration: none;
+    color: red;
 }
